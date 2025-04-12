@@ -1,0 +1,8 @@
+<h2>Edit Person</h2>
+<form (ngSubmit)="updatePerson()">
+  <label>Name:
+    <input [(ngModel)]="person.name" name="name">
+  </label>
+  <br>
+  <button type="submit">Save</button>
+</form>
